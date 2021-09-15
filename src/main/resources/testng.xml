@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Demo Test Automation Suit"  >
+
+  <listeners>
+		<listener class-name="com.qa.ExtendReportListener.ExtentReporterListener" />
+	</listeners>
+	
+  <test name="My Demo Test" >
+  
+  
+ 
+	
+   <classes>
+			<class name="com.crm.qa.testcases.LoginPageTest"></class>
+			<class name="com.crm.qa.testcases.HomePageTest"></class>
+		
+
+		</classes>
+    
+<!--     <packages> -->
+<!--       <package name="com.test" /> -->
+<!--    </packages> -->
+    
+    
+  </test>
+ 
+
+  
+</suite>
+	
